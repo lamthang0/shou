@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: robotVT;
+}
+@font-face {
+    font-family: robotVT;
+    src: url(../fonts/VT323-Regular.ttf);
+}
+
+.navbar-brand img {
+    width: 50% !important;
+    filter: drop-shadow(0 0 20px #dd7daf );
+    border: 2px solid #dd7daf;
+}    
+.bg-supdark{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.bg-supgrey {
+    background-color: #222222;
+}
+.cotrang {
+    background-image: url(../image/hoa/nu_one.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y:15%;
+    box-shadow: inset 0px 0px 20px 10px #add8e6;
+    filter: drop-shadow(0 0 15px #add8e6);
+    border: 2px solid #add8e6;
+    border-radius: 0 1rem 1rem 0;
+}
+.cotrang_one {
+    background-image: url(../image/hoa/nu_two.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y:15%;
+    box-shadow: inset 0px 0px 20px 10px #eba995;
+    filter: drop-shadow(0 0 15px #eba995);
+    border: 2px solid #eba995;
+    border-radius: 1rem 0 0 1rem;
+}
+.menu li>a {
+    color: white;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.menu li a:hover {
+    color: #dd7daf;
+    transition: 0.4s;
+    background-color: whitesmoke;
+    border-radius: 5rem;
+}
+.nav-link:focus {
+    color: #dd7daf !important;
+}
+.dropdown ul {
+    background-color: rgb(40,42,53);
+    border-top: 3px solid #dd7daf;
+}
+.dropdown:hover .submenu {
+    display: block;
+    transition: 1s;
+}
+.dropdown{
+   position: relative;
+}
+.submenu {
+    position: absolute;
+}
+.submenu li a{
+    padding: 10px 16px;
+    color: whitesmoke;
+    display: block;
+    transition: 0.3s;
+    font-size: 1.2rem;
+}
+.submenu li a:hover {
+    border-radius: 0;
+    color: #dd7daf;
+    transition: 0.3s;
+    background:none;
+}
+.btn:hover {
+    color: #dd7daf !important;
+}
+.input {
+    position: relative;
+}
+.input input{
+    border-radius: 10px;
+    caret-color:aqua;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+.input input:focus {
+    box-shadow: none;
+}
+.input a{
+    position: absolute;
+    padding: 4px 10px;
+    background-color: #ffffff00;
+    right: 0;
+    top: 0.45rem;
+}
+.carousel-indicators button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100%;
+}
+.carousel-aqua .carousel-indicators [data-bs-target] {
+    background-color: aqua;
+}
+.bg-co{
+    background-color: black;
+    z-index: 1;
+}
+.info-name{
+    background-color: rgba(13, 110, 253, 0.15);
+    top: 0%;
+    left: 0% !important;
+    right: 0% !important;
+    bottom: 0% !important;
+}
+.n-f{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    background-color: #1212125c;
+    text-align: left;
+    text-transform: capitalize;
+    width: 40%  ;
+    padding: 1rem 0 0 2rem;
+    height: 100%; 
+}
+.n-f img {
+    width: 50%;
+    opacity: 0.8;
+    border-radius: 1rem;
+}
+.n-f button:hover {
+    color: white !important;
+}
+.n-f p{
+    margin-bottom: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.info{
+    font-size: 17px !important;
+}
+.info span {
+    padding-right: 0.5rem;
+}
+.widget-area h3{
+    border-bottom: 3px solid #dd7daf;
+    line-height: 3rem;
+    filter: drop-shadow(0 0 5px #dd7daf);
+}
+.widget-area ul {
+    padding: 0;
+}
+.movie-item {
+    padding: 9px 5px;
+    list-style-type: none;
+}
+.movie-item a {
+    color: white;
+}
+.movie-item a:hover{
+    opacity: 0.8;
+    color: #dd7daf;
+}
+.movie-item a {
+    text-decoration: none;
+}
+.movie-item img {
+    width: 30%;
+}
+.area {
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.t-sz{
+    font-size: 12px;
+    color: #696969;
+}
+.top h2 {
+    border-radius: 1rem;
+    padding: 0.3rem 0.6rem;
+    background-color: red;
+    cursor: context-menu;
+}
+.top h2 i{
+    font-size: 1rem;
+}
+.top a{
+    text-decoration: none;
+    margin: 0.5rem 2rem;
+    font-size: 1.3rem;
+    color: white;
+    cursor: context-menu;
+}
+.top a:focus {
+    color: red;
+}
+.postMV{
+    width: 144px;
+    height: 217px;
+    margin: 2rem 1.5rem;
+}
+.postcMV{
+    position: relative;
+}
+.postMV a{
+    text-decoration: none;
+}
+.evaluate {
+    position: absolute;
+    background-color: #00000091;
+    padding: 5px 14px;
+    margin: 5px 0 0 10px;
+    border-radius: 3rem;
+    font-size: 13px;
+    left: 0;
+    color: #eeff00;
+}
+.mini-ep {
+    position: absolute;
+    top: 0rem;
+    left: 6rem;
+    color: white;
+    background-color: #ff0000b8;
+    border-radius: 3rem;
+    width: 2.7rem;
+    height: 2.7rem; 
+    text-align: center;
+    margin-top: 5px;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.mini-ep i {
+    position: absolute;
+    top: 1rem;
+    left: 0.6rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.postcMV:hover{
+    position: relative;
+}
+.caretR {
+    position: absolute;
+    border: 2px solid white;
+    top: 5rem;
+    left: 3.4rem;
+    border-radius: 3rem;
+    padding: 0.6rem 1rem;
+    background-color: #000000a1; 
+}
+.postMV .title {
+    font-size: 1.3rem;
+    color: white;
+    white-space:nowrap;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    z-index: 1;
+}
+.postMV .year {
+    color: white;
+    display: block;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    top: 15rem;
+}
+.infoMV{
+    margin-bottom: 5px;
+}
+.infoMV span {
+    letter-spacing: 1px;
+}
+.hdMV{
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-right: 6px;
+}
+.titleMV {
+    position: absolute;
+    font-size: 14px;
+    background-color: white;
+    top: -3.5rem;
+    left: 9rem;
+    padding: 15px 20px;
+    border-radius: 6px;
+    z-index: 1;
+    opacity: 0;
+    transition: 0.5s;
+}
+.caretRE{
+    background-color: #000000a1;
+    width: 9rem;
+    height: 13.6rem;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    transition: 0.5s;
+    top: 3.5rem;
+    left: -9rem;
+    
+}
+.titleMV:hover{
+    display: block;
+}
+.titleMV:hover,
+.caretRE:hover {
+    opacity: 1;
+    transition: 1s;
+}
+.anmt{
+    position: absolute;
+    left: -0.6rem;
+    top: -0.3rem;
+    bottom: 0;
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #00000000;
+    border-right: 10px solid #fff;
+    border-bottom: 10px solid #00000000;
+    z-index: 1;
+}
+.studioMV, .genreMV, .actorsMV, h2{
+    white-space: nowrap;
+}
+.alertMV {
+    border: 1px solid wheat;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: wheat;
+    color: #8a6d3b;
+    font-size: 16px;
+}
+.descriptionMV p{
+    margin-bottom: 5px;
+}
+.descriptionMV i {
+    border: 1px solid #b5e745;
+    padding: 5px;
+}
+.movielist {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+
+
+
